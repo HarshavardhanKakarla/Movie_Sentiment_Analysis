@@ -1,10 +1,9 @@
-nltk.download('punkt')
-nltk.download('stopwords')
-
 import streamlit as st
 import pickle
 import re
 import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
