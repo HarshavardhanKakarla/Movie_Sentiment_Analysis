@@ -1,3 +1,6 @@
+nltk.download('punkt')
+nltk.download('stopwords')
+
 import streamlit as st
 import pickle
 import re
@@ -6,8 +9,6 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
 
-nltk.download('punkt')
-nltk.download('stopwords')
 
 st.set_page_config(
     page_title="Movie Review Sentiment Analysis",
